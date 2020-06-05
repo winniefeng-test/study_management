@@ -16,3 +16,9 @@
 --%>
 <%@ page session="false" trimDirectiveWhitespaces="true" %>
 <% response.sendRedirect(request.getContextPath() + "/html"); %>
+<html>
+<head></head>
+<body>
+<h1>这是首页</h1>
+</body>
+</html>
